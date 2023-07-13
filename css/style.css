@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif ;
+    text-decoration: none ;
+    list-style: none ;
+}
+
+body {
+    background-image: url(../images/fondo-colores.jpg);
+    background-position: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+#main-principal {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.main-informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+
+
+
+.main-parrafo {
+    text-align: center;
+    font-size: 20px;
+}
+
+.imagen-yo {
+    border-radius: 50%;
+    width: 80%;
+    height: auto;
+    box-shadow: 8px 8px 7px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+}
+
+
+
+h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 1px;
+    
+    
+}
+
+  
+/* TRABAJANDO CON SECTION INFORMACION-LISTAS   */
+
+.informacion-profesional {
+    display: flex;
+    justify-content: center;
+}
+
+.informacion-profesional .informacion-lista{
+    padding: 20px;
+   
+}
+
+.informacion-lista .informacion-enlace {
+    border: 0.5px #000000 solid;
+    color: #000000;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: 900;
+}
+
+.informacion-lista .informacion-enlace:hover {
+    background-color: #0000006b ;
+    color: #ffffff;
+}
+
+/* PARRAFOS DESARROLLO-WEB  */
+
+.desarrollo-web {
+    margin-left: 20px;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.parrafo-desarrollo {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+/* PARTE DE EXPERIENCIA PROFESIONAL  */
+
+.informacion-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.informacion-empleo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    font-size: 18px;
+}
+
+#redes-sociales {
+   
+    background-position: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#proyectos-personales {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.imagenes-diplomas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.img-diploma {
+    width: 100%;
+    height: auto;
+    box-shadow: 8px 8px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.presento-proyectos {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Caprasimo', cursive;
+}
+
+.mis-proyectos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 8px 8px 2px 2px rgba(0, 0, 0, 0.2);
+    gap: 3px;
+    
+    
+}
+
+.proyectos-div {
+    background-color: #ffffff25;
+    padding: 20px;
+   
+    transition: border 0.3s ease;
+   
+}
+    
+.proyectos-div:hover {
+    background-color: #ff4400e3;
+    transition: background-color  1s;
+    
+}
+    
+
+.titulo-proyecto {
+    font-size: 20px;
+    color: #000000;
+}
+
+.ul-proyectos {
+    display: flex;
+    margin-top: 15px;
+}
+
+.ul-proyectos .li-proyectos {
+    padding-right: 10px;
+    
+}
+
+.ul-proyectos .li-proyectos .enlace-proyectos {
+    color: black;
+    border: 0.5px #000000 solid;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: 900;
+}
+
+.ul-proyectos .li-proyectos .enlace-proyectos:hover {
+    background-color: #ffffff6e;
+    color: #ffffff;
+}
+
+#bi-github {
+    color: #000000;
+    font-size: 30px;
+    
+}
+    
+
+
+
+.div-enlace {
+    margin-top: 10px;
+}
+
+.div-footer {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 20px;
+   padding: 10px;
+   margin-right: 10px;
+   margin-left: 10px;
+}
+
+.div-enlace-footer {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.footer-enlace {
+    padding-right: 20px;
+}
+
+.bi-github {
+    font-size: 45px;
+    color: #000000;
+}
+
+.bi-github:hover {
+    color: gray;
+}
+
+.bi-facebook {
+    font-size: 45px;
+    color: #000000;
+}
+
+.bi-facebook:hover {
+    color: blue;
+}
+
+.bi-linkedin {
+    font-size: 45px;
+    color: #000000;
+}
+
+.bi-linkedin:hover {
+    color: #0000ffe8;
+}
+
+.bi-twitter {
+    font-size: 45px;
+    color: #000000;
+}
+
+.bi-twitter:hover {
+    color: #6494edf6;
+}
+
+.bi-instagram {
+    font-size: 45px;
+    color: #000000;
+}
+
+.bi-instagram:hover {
+    color: #940e0e;
+}
+
+h4 {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+#contacto-footer {
+    background-color: #8080805d;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.div-educacion {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.form-section {
+    margin-top: 30px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff49;
+    border-radius: 5px;
+  }
+  
+  .formulario label {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .formulario input,
+  .formulario textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formulario textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .formulario button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .formulario button:hover {
+    background-color: white;
+    color: #000000;
+  }
+  
+
+.cursos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    
+}
+
+.cursos p {
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contacto-titulo {
+    letter-spacing: 1px;
+    font-size: 22px;
+    color: #ffffff;
+}
