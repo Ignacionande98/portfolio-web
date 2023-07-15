@@ -393,3 +393,42 @@ h4 {
     font-size: 22px;
     color: #ffffff;
 }
+
+
+@media (max-width:600px) {
+    #main-principal {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .main-parrafo {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
+    .imagen-yo {
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .informacion-section .informacion-profesional {
+        display: flex;
+        flex-direction: column;
+    }
+    h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .imagenes-diplomas {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+    .mis-proyectos {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 30px;
+    }
+}
