@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url(../images/fondo-colores.jpg);
+    background-image: url(../images/fondo-multi.jpg);
     background-position: 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -395,6 +395,7 @@ h4 {
 }
 
 
+
 @media (max-width:600px) {
     #main-principal {
         display: grid;
@@ -408,10 +409,13 @@ h4 {
         flex-direction: column;
         font-size: 15px;
     }
-    .imagen-yo {
+    .imagen  {
+        display: flex;
+        justify-content: center;
+    }
+    .imagen .imagen-yo {
         width: 60%;
         height: auto;
-        margin: 0 auto;
     }
     .informacion-section .informacion-profesional {
         display: flex;
@@ -431,4 +435,22 @@ h4 {
         grid-template-columns: 1fr;
         padding: 30px;
     }
+    #informacion-experiencia .informacion-div {
+        font-size: 15px;
+    }
+    #informacion-experiencia .informacion-empleo {
+        font-size: 13px;
+    }
+    #informacion-experiencia .informacion-empleo .parrafo-empleo {
+        text-align: center;
+        margin-top: 10px;
+    }
+    #educacion .div-educacion .desarrollo-web {
+        font-size: 13px;
+        text-align: center;
+    }
+   #educacion .cursos p {
+    font-size: 12px;
+    text-align: center;
+   }
 }
