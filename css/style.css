@@ -21,6 +21,7 @@ body {
     grid-template-columns: 4fr 2fr;
     max-width: 1000px;
     margin: 0 auto;
+    
 }
 
 .main-informacion {
@@ -176,12 +177,15 @@ h3 {
     margin: 20px auto;
     box-shadow: 8px 8px 2px 2px rgba(0, 0, 0, 0.2);
     gap: 3px;
-    
+    background-image: url(../images/codigos.jpg);
+    background-position: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
 .proyectos-div {
-    background-color: #ffffff25;
+    background-color: #0000009f;
     padding: 20px;
    
     transition: border 0.3s ease;
@@ -189,7 +193,7 @@ h3 {
 }
     
 .proyectos-div:hover {
-    background-color: #ff4400e3;
+    background-color: #0000004b;
     transition: background-color  1s;
     
 }
@@ -197,7 +201,10 @@ h3 {
 
 .titulo-proyecto {
     font-size: 20px;
-    color: #000000;
+    color: #ffffff;
+}
+.parrafo-proyecto {
+    color: #ffffff;
 }
 
 .ul-proyectos {
@@ -211,11 +218,12 @@ h3 {
 }
 
 .ul-proyectos .li-proyectos .enlace-proyectos {
-    color: black;
-    border: 0.5px #000000 solid;
+    color: #ffffff;
+    border: 0.5px #ffffff solid;
     border-radius: 20px;
     padding: 5px;
     font-weight: 900;
+    font-size: 12px;
 }
 
 .ul-proyectos .li-proyectos .enlace-proyectos:hover {
@@ -224,7 +232,7 @@ h3 {
 }
 
 #bi-github {
-    color: #000000;
+    color: #ffffff;
     font-size: 30px;
     
 }
@@ -400,9 +408,10 @@ h4 {
     #main-principal {
         display: grid;
         grid-template-columns: 1fr;
+        margin-top: 20px;
     }
     h1 {
-        font-size: 30px;
+        font-size: 35px;
     }
     .main-parrafo {
         display: flex;
@@ -433,7 +442,8 @@ h4 {
     .mis-proyectos {
         display: grid;
         grid-template-columns: 1fr;
-        padding: 30px;
+        padding: 20px;
+        
     }
     #informacion-experiencia .informacion-div {
         font-size: 15px;
@@ -445,12 +455,15 @@ h4 {
         text-align: center;
         margin-top: 10px;
     }
+    .div-educacion {
+        display: flex;
+    }
     #educacion .div-educacion .desarrollo-web {
-        font-size: 13px;
+        font-size: 11px;
         text-align: center;
     }
-   #educacion .cursos p {
-    font-size: 12px;
-    text-align: center;
-   }
+    #educacion .cursos p {
+        font-size: 10px;
+        text-align: center;
+    }
 }
