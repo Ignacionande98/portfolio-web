@@ -456,14 +456,22 @@ h4 {
         margin-top: 10px;
     }
     .div-educacion {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
     }
     #educacion .div-educacion .desarrollo-web {
         font-size: 11px;
-        text-align: center;
+        
     }
     #educacion .cursos p {
         font-size: 10px;
         text-align: center;
     }
+    .cursos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+    }
+ 
 }
